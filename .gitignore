@@ -1,0 +1,31 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Generated data files
+weather_raw.csv
+weather_data_cleaned.csv
+weather_model_dataset.csv
+weather_train.csv
+weather_test.csv
+
+# Misc
+*.log
