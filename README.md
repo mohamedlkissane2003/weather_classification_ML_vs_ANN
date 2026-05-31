@@ -1,11 +1,21 @@
 # Weather Classification: ML vs ANN
 
-This is a simple Python project that collects weather data from Open-Meteo for several Moroccan cities, cleans and prepares the data, and then compares two classification approaches:
+This is a simple Python project that follows five main stages: collect data, cleaning, EDA, ML, and ANN. It collects weather data from Open-Meteo for several Moroccan cities, prepares the data, explores it, and then compares two classification approaches:
 
 - Logistic Regression as a traditional machine learning baseline
 - Artificial Neural Network as a neural network approach
 
 At the end, the script displays each model's accuracy, confusion matrix, and the ANN training curves.
+
+## Main Workflow
+
+The project is organized into five core stages:
+
+1. Collect data from the Open-Meteo API
+2. Clean and validate the raw dataset
+3. Perform EDA with summary statistics and visualizations
+4. Train a traditional ML model using Logistic Regression
+5. Train an ANN model and compare the results
 
 ## Project Idea
 
