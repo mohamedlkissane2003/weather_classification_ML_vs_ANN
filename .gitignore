@@ -15,17 +15,26 @@ ENV/
 
 # Jupyter
 .ipynb_checkpoints/
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+.env
 
 # OS files
 .DS_Store
 Thumbs.db
 
-# Generated data files
-weather_raw.csv
-weather_data_cleaned.csv
-weather_model_dataset.csv
-weather_train.csv
-weather_test.csv
+# Generated data, models, reports, and local experiment outputs
+data/raw/*
+data/processed/*
+models/*
+reports/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!models/.gitkeep
+!reports/.gitkeep
+!reports/figures/.gitkeep
 
 # Misc
 *.log
